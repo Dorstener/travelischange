@@ -17,7 +17,7 @@ jobs:
     - name: Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.2
       with:
-        server: ftp.travelischange.com  # Cambia esto si Bluehost te dio otro host FTP
+        server: czt.hsk.mybluehost.me  # Cambia esto si Bluehost te dio otro host FTP
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
