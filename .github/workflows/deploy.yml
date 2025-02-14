@@ -21,5 +21,5 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./
-        server-dir: /home3/czthskmy/public_html/travelischange.com/
+        server-dir: /public_html/travelischange.com/
 
