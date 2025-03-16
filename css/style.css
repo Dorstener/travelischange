@@ -14,6 +14,30 @@ body {
     margin-top: 40px;
 }
 
+.marginRight80 {
+    margin-right: 80px;
+}
+
+.marginBottom40 {
+    margin-bottom: 40px;
+}
+
+.marginLeft80 {
+    margin-left: 80px;
+}
+
+.margintTopBottom40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.marginRightLeft80 {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
 /*CONTAINER STYLING*/
 
 .containerOne {
@@ -21,7 +45,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 400px;
+    height: 100px;
     margin: auto;
 }
 
@@ -71,6 +95,7 @@ body {
     flex-grow:1;
     justify-content: center;
     align-items: center;
+    height: 500px;
 }
 
 .containerEight {
@@ -98,9 +123,31 @@ li {
     list-style-type: inside;
 }
 
+
+/* FONT STYLING */
+
+.fontOne {
+    font-family: "Overlock", sans-serif;
+    font-size: 6em;
+    font-weight: 200px;
+}
+
+.fontTwo {
+    font-family: "Overlock", sans-serif;
+    font-size: 2em;
+    font-weight: 200px;
+}
+
+.fontThree {
+    font-family: "Overlock", sans-serif;
+    font-size: 2em;
+    font-weight: 200px;
+}
+
+
 /* IMAGE STYLING */
 
-/*.imgOne {
+.imgOne {
     position: relative;
     background-image: url('/img/arubabeach.jpg');
     background-repeat: no-repeat;
@@ -108,7 +155,7 @@ li {
     background-size: cover;
 }*/
 
-/*.imgOne::before {
+.imgOne::before {
     content: "";
   position: absolute;
   top: 0;
