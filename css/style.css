@@ -36,6 +36,12 @@ body {
     margin-right: 80px;
 }
 
+/* PADDING STYLING */
+
+.paddingRightLeft60 {
+    padding-right: 60px;
+    padding-left: 60px;
+}
 
 
 /*CONTAINER STYLING*/
