@@ -47,7 +47,7 @@ body {
 /*CONTAINER STYLING*/
 
 .containerOne {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -87,7 +87,7 @@ body {
 .containerFive {
     display: flex;
     justify-content: center;
-    width:100%;
+    width: 100%;
     flex: 1;
 }
 
@@ -98,18 +98,18 @@ body {
 }
 
 .containerSeven {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    flex-grow:1;
+    flex-grow: 1;
     justify-content: center;
     align-items: center;
     height: 80vh;
 }
 
 .containerEight {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     height: 80vh;
 }
@@ -117,17 +117,17 @@ body {
 .containerNine {
     display: flex;
     flex-direction: column;
-    width:50%;
+    width: 50%;
     height: auto;
 
 }
 
 .containerTen {
-    display:flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 200px;
+    height: 300px;
     width: auto;
 }
 
@@ -142,14 +142,39 @@ body {
     width: 180px;
     padding: 0px 20px;
     background-color: #99aeba;
+}
 
+.containerTwelve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.containerThirteen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #99aeba;
+    border: 3px solid #99aeba;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.containerFourteen {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 li {
     width: 200px;
 }
 
-.containerFour > li {
+.containerFour>li {
     text-align: right;
     display: flex;
     justify-self: flex-end;
@@ -181,15 +206,20 @@ li {
     font-family: "Overlock", sans-serif;
     font-size: 6em;
     font-weight: 200px;
-    color:#007cb6; 
+    color: #007cb6;
 }
 
 .fontFive {
     font-family: "Overlock", sans-serif;
     font-size: 1em;
-    color:#007cb6;
+    color: #007cb6;
 }
 
+.fontSix {
+    font-family: "Overlock", sans-serif;
+    font-size: 2em;
+    color: #007cb6;
+}
 
 /* IMAGE STYLING */
 
@@ -199,26 +229,31 @@ li {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    border-radius: 0px 0px 50px 50px ;
+    border-radius: 0px 0px 50px 50px;
 }
 
 .imgOne::before {
     content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.1);
-  z-index: 1;
-  border-radius: 0px 0px 50px 50px 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 0px 0px 50px 50px
 }
 
 .imgTwo {
-    width:80%;
+    width: 80%;
     max-width: 100%;
     height: auto;
     border-radius: 20px;
     display: block;
     margin: auto 15%;
+}
+
+.imgThree {
+    width:100%;
+    height: 180px;
 }
