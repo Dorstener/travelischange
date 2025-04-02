@@ -122,6 +122,29 @@ body {
 
 }
 
+.containerTen {
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: auto;
+}
+
+.containerEleven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #99aeba;
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    padding: 0px 20px;
+    background-color: #99aeba;
+
+}
+
 li {
     width: 200px;
 }
@@ -152,6 +175,19 @@ li {
     font-family: "Overlock", sans-serif;
     font-size: 2em;
     font-weight: 200px;
+}
+
+.fontFour {
+    font-family: "Overlock", sans-serif;
+    font-size: 6em;
+    font-weight: 200px;
+    color:#007cb6; 
+}
+
+.fontFive {
+    font-family: "Overlock", sans-serif;
+    font-size: 1em;
+    color:#007cb6;
 }
 
 
